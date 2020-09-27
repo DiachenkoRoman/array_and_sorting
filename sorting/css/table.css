@@ -1,0 +1,17 @@
+.companyInfo {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    background-color: gray;
+}
+
+.companyEmployersModal {
+    position: absolute;
+    left: 0;
+    top: 0;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(5, 2fr);
+    background-color: gray;
+    z-index: 1;
+}

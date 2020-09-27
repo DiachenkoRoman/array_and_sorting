@@ -1,0 +1,10 @@
+.navigation {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    cursor: pointer;
+}
+
+.navigation li:hover {
+    color: red;
+}
